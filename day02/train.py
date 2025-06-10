@@ -7,7 +7,7 @@ from torch import nn
 from torch.utils.data import DataLoader
 from torch.utils.tensorboard import SummaryWriter
 
-from model import *
+from day02.model import *
 
 # 准备数据集
 train_data = torchvision.datasets.CIFAR10(root="../dataset_chen",
